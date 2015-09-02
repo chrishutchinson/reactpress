@@ -39,8 +39,8 @@ var WordpressSinglePost = React.createClass({
   render: function () {
     if(typeof this.state.ID !== 'undefined') {
       return (
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             <WordpressBreadcrumbs state={this.state} />
            
             <ReactCSSTransitionGroup transitionName="test">
@@ -51,7 +51,7 @@ var WordpressSinglePost = React.createClass({
               </div>
             </ReactCSSTransitionGroup>
           </div>
-          
+
           <WordpressComments id={this.state.ID} />
         </div>
       );
