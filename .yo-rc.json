@@ -1,0 +1,8 @@
+{
+  "generator-react-webpack": {
+    "app-name": "wordpressReactTest",
+    "architecture": false,
+    "styles-language": "sass",
+    "component-suffix": "js"
+  }
+}

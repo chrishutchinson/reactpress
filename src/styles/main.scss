@@ -1,0 +1,34 @@
+html, body {
+  background: #ffffff;
+  margin-top: 80px;
+}
+
+.alignright {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto 40px;
+}
+
+
+.label-space {
+  margin-right: 4px;
+}
+
+
+.test-enter {
+	opacity: 0;
+	transition: all 1s linear;
+}
+
+.test-enter.test-enter-active {
+	opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+	.alignright {
+	  width: auto;
+	  float: right;
+	  margin: 0 0 40px 40px;
+	}
+}
